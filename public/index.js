@@ -1,11 +1,14 @@
-function showSidebar() {
-    const sidebar = document.querySelector('.sidebar')
-    sidebar.style.display = 'flex';
-}
+const toggleBtn = document.querySelector('.toggle_btn')
+const toggleBtnIcon = document.querySelector('.toggle_btn i')
+const dropDownMenu = document.querySelector('.dropdown_menu')
 
-function hideSidebar() {
-    const sidebar = document.querySelector('.sidebar')
-    sidebar.style.display = 'none';
+toggleBtn.onclick = function () {
+dropDownMenu.classList.toggle('open')
+const isOpen = dropDownMenu.classList.contains('open')
+
+toggleBtnIcon.classList  = isOpen 
+? 'fa-solid fa-xmark'
+: 'fa-solid fa-bars'
 }
 
 const backToTopBtn = document.getElementById("backToTopBtn");
@@ -40,16 +43,3 @@ const btnThree = document.getElementById("btn-3");
 btnThree.addEventListener("click", ()=> {
  window.location.href = "http://localhost:3000/join"
 })
-
-const btnFour = document.getElementById("btn-4");
-
-btnFour.addEventListener("click", ()=> {
- window.location.href = "http://localhost:3000/join"
-})
-
-const btnFive = document.getElementById("btn-5");
-
-btnFive.addEventListener("click", ()=> {
- window.location.href = "http://localhost:3000/join"
-})
-  
