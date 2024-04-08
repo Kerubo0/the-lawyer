@@ -121,6 +121,30 @@ color: white;
 scale: 0.95;
 }
 
+/* DROPDOWN */
+
+.dropdown{
+  margin-top:100px ;
+ }
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+ul li ul.dropdown {
+  width: fit-content;
+  background: #212121;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  padding-left: 10px;
+}
+
+ul li:hover ul.dropdown{
+  display: block;
+}
+
+
 /* DROPDOWN MENU */
 .dropdown_menu{
 display: none;
@@ -138,6 +162,7 @@ transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 .dropdown_menu.open{
 height: 260px;
+z-index: 9;
 }
 
 
@@ -155,10 +180,11 @@ justify-content: center;
 }
 
 .angle{
-background-color: #3d3d3d;
-border-radius: 15px;
-margin-top: 3px ;
-}
+  background-color: #3d3d3d;
+  border-radius: 15px;
+  margin-top: 3px ;
+  width: 15px;
+ }
 /* RESPONSIVE DESIGN */
 @media(max-width: 992px){
 .navbar .links,
@@ -222,17 +248,17 @@ text-align: center;
  }
 
 h1{
-   font-size: 28px;
+   font-size: 30px;
    font-weight: 500;
 }
 
 h2{
- font-size: 26px;
+ font-size: 25px;
  font-weight: 600;
 }
 
 h3{
-   font-size: 20px;
+   font-size: 21px;
    display: flex;
    text-align: center;
    margin-top: 65px;
@@ -329,6 +355,19 @@ align-items: center;
 padding: 0 20px; 
 }
 
+.draft{
+  position: relative;
+  right: 20%;
+  top: 50px;
+  width: 390px;
+}
+
+@media (max-width: 768px){
+  .draft{
+    left: 10%;
+  }
+}
+
 @media(max-width: 768px){
   .jim-w-icons{
     width: 350px ;
@@ -411,8 +450,9 @@ padding: 0 20px;
 
 .legal-g{
   position: relative;
-  width: 450px;
-  left: 7%;
+  width: 400px;
+  /*left: 7%;*/
+  right: 10%;
 }
 
 @media (max-width: 450px){
@@ -442,8 +482,8 @@ padding: 0 20px;
 
 .team-l{
   position: relative;
-  right: 10%;
-  width: 400px;
+  left: 10%;
+  width: 370px;
 }
 
 @media (max-width: 450px){
