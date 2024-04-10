@@ -225,6 +225,7 @@ justify-content: center;
 p{
 font-weight: 500;
 font-size: 20px;
+line-height: 1.7em;
 }
 
 .head-text{
@@ -852,7 +853,7 @@ h1{
     position: relative;
     top: 5%;
     left: 12%;
-    width: 280px;
+    width: 270px;
   }
   .local{
     position: relative;
@@ -870,7 +871,7 @@ h1{
     width: 280px;
     position: relative;
     top: 5%;
-    right: 25%;
+    left: -20%;
   }
 
   h1{
