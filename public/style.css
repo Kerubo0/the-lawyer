@@ -336,6 +336,11 @@ box-shadow: -7px -7px 10px rgba(255, 255, 255, 0.25), 10px 10px 12px rgba(0, 0, 
    align-items: center;
 }
 
+.jim-w-icons{
+  width: 400px;
+  height: auto;
+}
+
 .block-text{
    margin: 20px;
    max-width: 45%;
@@ -570,7 +575,7 @@ border-radius: 16px;
 .card-container .image-icons {
 z-index: 10;
 position: absolute;
-top: -380px;
+top: -270px;
 }
 
 .kelly {
