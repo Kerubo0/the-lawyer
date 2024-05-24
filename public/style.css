@@ -577,9 +577,9 @@ h3{
    font-size: 21px;
    display: flex;
    text-align: center;
-   margin-top: 65px;
-   margin-bottom: 40px;
-   padding-top: 50px;
+   margin-top: 40px;
+   margin-bottom: 30px;
+   color: #ffd150;
 }
 
 button{
@@ -842,7 +842,7 @@ height: auto;
 }
 
 .card-container {
-padding-top: 300px;
+padding-top: 250px;
 margin-top: 30px;
 margin-bottom: 80px;
 color: whitesmoke;
@@ -860,7 +860,7 @@ border-radius: 16px;
 .card-container .image-icons {
 z-index: 10;
 position: absolute;
-top: -270px;
+top: -240px;
 }
 
 .kelly {
@@ -947,6 +947,11 @@ width: 100%;
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
+}
+
+.banner{
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 
